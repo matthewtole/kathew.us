@@ -22,8 +22,10 @@ const Layout: React.SFC = ({children}) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            {name: 'description', content: 'Sample'},
-            {name: 'keywords', content: 'sample, something'},
+            {
+              name: 'description',
+              content: 'The official website of Katherine and Matthew Tole',
+            },
           ]}
         >
           <html lang="en" />

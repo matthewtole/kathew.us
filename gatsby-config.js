@@ -3,6 +3,7 @@ module.exports = {
     title: 'Katherine & Matthew Tole',
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
